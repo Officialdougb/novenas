@@ -1,3 +1,8 @@
+# Novenas App Project
+This project uses React and Bootstrap primarily, in order to create an app to help people who are interested in reading or praying traditional Catholic novena prayers. The prayers included follow the suggestions of The Saintmaker planner. I'm a user of the planner, however I am not affiliated with or paid to advertise the planner at the time of this project creation. The planner can be found at [The Saintmaker](https://www.thesaintmaker.com)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
