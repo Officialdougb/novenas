@@ -3,12 +3,12 @@ import Button from 'react-bootstrap/Button';
 
 export default function HomeHeader() {
   return (
-    <>
-      <h1>Novena</h1>
-      <p>A Saint Supplement</p>
-      <Button variant="primary">
-        <Link to="/praynow">Pray Now</Link>
-      </Button>
-    </>
-  )
+    <div className="text-center">
+      <Link to="/praynow">
+        <Button variant="primary">
+          Pray Now
+        </Button>
+      </Link>
+    </div>
+  );
 }
