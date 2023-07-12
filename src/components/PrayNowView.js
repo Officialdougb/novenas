@@ -6,7 +6,7 @@ import Button from 'react-bootstrap/Button';
 
 export default function PrayNowView() {
   return (
-    <div className="text-center">
+    <div className="text-center mb-5">
       <Accordian>
         <NovenasList data={novenas} />
       </Accordian>
@@ -16,6 +16,7 @@ export default function PrayNowView() {
           Home
         </Button>
       </Link>
+      <div className="mb-5"></div>
     </div>
   );
 }
