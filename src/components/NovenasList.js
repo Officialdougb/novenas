@@ -1,13 +1,25 @@
+import Accordion from "react-bootstrap/Accordion";
+
 export default function NovenasList(props) {
   return (
     <>
+      <style type="text/css">
+        {`
+          ul,li {list-style:none;}
+        `}
+      </style>
+
       {props.data.map((novena) =>
-        <li key={novena.title}>
-          {novena.title}<br />
-          {novena.text}<br />
-          Feast/Event: {novena.event}<br />
-          Feast/Event Date: {novena.eventDate}
-        </li>
+        <Accordion.Item eventKey={novena.title}>
+          <Accordion.Header>
+            {novena.title}
+          </Accordion.Header>
+          <Accordion.Body>
+            {novena.text}<br />
+            Feast/Event: {novena.event}<br />
+            Feast/Event Date: {novena.eventDate}
+          </Accordion.Body>
+        </Accordion.Item>
       )}
     </>
   );
