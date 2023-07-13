@@ -15,6 +15,7 @@ export default function NovenasList(props) {
             {novena.title}
           </Accordion.Header>
           <Accordion.Body>
+            Start Date: {novena.start}<br />
             {novena.text}<br />
             Feast/Event: {novena.event}<br />
             Feast/Event Date: {novena.eventDate}
