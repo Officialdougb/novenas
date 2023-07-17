@@ -5,8 +5,8 @@ import Row from 'react-bootstrap/Row';
 
 export default function Home(props) {
   return (
-    <Container className="text-center bg-danger h-">
-      <Row>
+    <Container className="text-center">
+      <Row className="bg-danger">
         <h1 style={{fontFamily: props.latoFont}}>
           NOVENAS
         </h1>
@@ -20,8 +20,8 @@ export default function Home(props) {
           For more information about The Saintmaker, visit <a href="https://www.thesaintmaker.com/"> www.thesaintmaker.com</a>
         </p>
       </Row>
-      <Row>
-        <Link to="/praynow">
+      <Row className="fixed-bottom mb-5">
+        <Link to="/praynow" className="mb-5">
           <Button className="btn-lg" variant="primary">
             Pray Now
           </Button>
