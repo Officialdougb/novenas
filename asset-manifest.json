@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/novenasapp/static/css/main.4da62354.css",
+    "main.js": "/novenasapp/static/js/main.e5f40ac5.js",
+    "index.html": "/novenasapp/index.html",
+    "main.4da62354.css.map": "/novenasapp/static/css/main.4da62354.css.map",
+    "main.e5f40ac5.js.map": "/novenasapp/static/js/main.e5f40ac5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4da62354.css",
+    "static/js/main.e5f40ac5.js"
+  ]
+}
