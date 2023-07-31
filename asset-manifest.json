@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/novenasapp/static/css/main.4da62354.css",
-    "main.js": "/novenasapp/static/js/main.b436f907.js",
-    "index.html": "/novenasapp/index.html",
-    "main.4da62354.css.map": "/novenasapp/static/css/main.4da62354.css.map",
-    "main.b436f907.js.map": "/novenasapp/static/js/main.b436f907.js.map"
+    "main.css": "/novenas/static/css/main.4da62354.css",
+    "main.js": "/novenas/static/js/main.8901b7ac.js",
+    "index.html": "/novenas/index.html",
+    "main.4da62354.css.map": "/novenas/static/css/main.4da62354.css.map",
+    "main.8901b7ac.js.map": "/novenas/static/js/main.8901b7ac.js.map"
   },
   "entrypoints": [
     "static/css/main.4da62354.css",
-    "static/js/main.b436f907.js"
+    "static/js/main.8901b7ac.js"
   ]
 }
